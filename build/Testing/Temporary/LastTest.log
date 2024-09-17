@@ -1,0 +1,661 @@
+Start testing: Sep 09 23:47 EDT
+----------------------------------------------------------
+1/24 Testing: qa_costas_loop_8apsk_cc
+1/24 Test: qa_costas_loop_8apsk_cc
+Command: "/usr/bin/sh" "qa_costas_loop_8apsk_cc_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_costas_loop_8apsk_cc" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_costas_loop_8apsk_cc.py", line 25, in <module>
+    from satellites import costas_loop_8apsk_cc
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_costas_loop_8apsk_cc" end time: Sep 09 23:47 EDT
+"qa_costas_loop_8apsk_cc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/24 Testing: qa_crc
+2/24 Test: qa_crc
+Command: "/usr/bin/sh" "qa_crc_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_crc" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_crc.py", line 24, in <module>
+    from satellites import crc, crc_append, crc_check
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_crc" end time: Sep 09 23:47 EDT
+"qa_crc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/24 Testing: qa_fixedlen_tagger
+3/24 Test: qa_fixedlen_tagger
+Command: "/usr/bin/sh" "qa_fixedlen_tagger_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_fixedlen_tagger" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_fixedlen_tagger.py", line 24, in <module>
+    from satellites import fixedlen_tagger
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_fixedlen_tagger" end time: Sep 09 23:47 EDT
+"qa_fixedlen_tagger" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/24 Testing: qa_fixedlen_to_pdu
+4/24 Test: qa_fixedlen_to_pdu
+Command: "/usr/bin/sh" "qa_fixedlen_to_pdu_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_fixedlen_to_pdu" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_fixedlen_to_pdu.py", line 24, in <module>
+    from satellites import fixedlen_to_pdu
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_fixedlen_to_pdu" end time: Sep 09 23:47 EDT
+"qa_fixedlen_to_pdu" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/24 Testing: qa_hdlc
+5/24 Test: qa_hdlc
+Command: "/usr/bin/sh" "qa_hdlc_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_hdlc" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_hdlc.py", line 24, in <module>
+    from satellites import hdlc_framer, hdlc_deframer
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_hdlc" end time: Sep 09 23:47 EDT
+"qa_hdlc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/24 Testing: qa_kiss
+6/24 Test: qa_kiss
+Command: "/usr/bin/sh" "qa_kiss_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_kiss" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_kiss.py", line 24, in <module>
+    from satellites import kiss_to_pdu, pdu_to_kiss
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_kiss" end time: Sep 09 23:47 EDT
+"qa_kiss" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/24 Testing: qa_manchester_sync
+7/24 Test: qa_manchester_sync
+Command: "/usr/bin/sh" "qa_manchester_sync_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_manchester_sync" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_manchester_sync.py", line 23, in <module>
+    from satellites import manchester_sync_cc, manchester_sync_ff
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_manchester_sync" end time: Sep 09 23:47 EDT
+"qa_manchester_sync" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/24 Testing: qa_nrzi
+8/24 Test: qa_nrzi
+Command: "/usr/bin/sh" "qa_nrzi_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_nrzi" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_nrzi.py", line 24, in <module>
+    from satellites import nrzi_encode, nrzi_decode
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_nrzi" end time: Sep 09 23:47 EDT
+"qa_nrzi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/24 Testing: qa_pdu_add_meta
+9/24 Test: qa_pdu_add_meta
+Command: "/usr/bin/sh" "qa_pdu_add_meta_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_pdu_add_meta" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_pdu_add_meta.py", line 24, in <module>
+    from satellites import pdu_add_meta
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_pdu_add_meta" end time: Sep 09 23:47 EDT
+"qa_pdu_add_meta" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/24 Testing: qa_pdu_head_tail
+10/24 Test: qa_pdu_head_tail
+Command: "/usr/bin/sh" "qa_pdu_head_tail_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_pdu_head_tail" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_pdu_head_tail.py", line 24, in <module>
+    from satellites import pdu_head_tail
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_pdu_head_tail" end time: Sep 09 23:47 EDT
+"qa_pdu_head_tail" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/24 Testing: qa_pdu_length_filter
+11/24 Test: qa_pdu_length_filter
+Command: "/usr/bin/sh" "qa_pdu_length_filter_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_pdu_length_filter" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_pdu_length_filter.py", line 24, in <module>
+    from satellites import pdu_length_filter
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_pdu_length_filter" end time: Sep 09 23:47 EDT
+"qa_pdu_length_filter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/24 Testing: qa_pdu_scrambler
+12/24 Test: qa_pdu_scrambler
+Command: "/usr/bin/sh" "qa_pdu_scrambler_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_pdu_scrambler" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_pdu_scrambler.py", line 24, in <module>
+    from satellites import pdu_scrambler
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_pdu_scrambler" end time: Sep 09 23:47 EDT
+"qa_pdu_scrambler" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/24 Testing: qa_phase_unwrap
+13/24 Test: qa_phase_unwrap
+Command: "/usr/bin/sh" "qa_phase_unwrap_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_phase_unwrap" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_phase_unwrap.py", line 25, in <module>
+    from satellites import phase_unwrap
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_phase_unwrap" end time: Sep 09 23:47 EDT
+"qa_phase_unwrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/24 Testing: qa_rs
+14/24 Test: qa_rs
+Command: "/usr/bin/sh" "qa_rs_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_rs" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_rs.py", line 24, in <module>
+    from satellites import encode_rs, decode_rs
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_rs" end time: Sep 09 23:47 EDT
+"qa_rs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/24 Testing: qa_selector
+15/24 Test: qa_selector
+Command: "/usr/bin/sh" "qa_selector_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_selector" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+/usr/lib/python3/dist-packages/gnuradio/gr/top_block.py:48: DeprecationWarning: setDaemon() is deprecated, set the daemon attribute instead
+  self.setDaemon(1)
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.014s
+
+OK
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"qa_selector" end time: Sep 09 23:47 EDT
+"qa_selector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/24 Testing: qa_viterbi
+16/24 Test: qa_viterbi
+Command: "/usr/bin/sh" "qa_viterbi_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python
+"qa_viterbi" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/qa_viterbi.py", line 24, in <module>
+    from satellites import convolutional_encoder, viterbi_decoder
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_viterbi" end time: Sep 09 23:47 EDT
+"qa_viterbi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/24 Testing: qa_ao40_fec_deframer
+17/24 Test: qa_ao40_fec_deframer
+Command: "/usr/bin/sh" "qa_ao40_fec_deframer_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/components/deframers
+"qa_ao40_fec_deframer" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/components/deframers/qa_ao40_fec_deframer.py", line 24, in <module>
+    from satellites.components.deframers import ao40_fec_deframer
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_ao40_fec_deframer" end time: Sep 09 23:47 EDT
+"qa_ao40_fec_deframer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/24 Testing: qa_usp_deframer
+18/24 Test: qa_usp_deframer
+Command: "/usr/bin/sh" "qa_usp_deframer_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/components/deframers
+"qa_usp_deframer" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/components/deframers/qa_usp_deframer.py", line 24, in <module>
+    from satellites.components.deframers import usp_deframer
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"qa_usp_deframer" end time: Sep 09 23:47 EDT
+"qa_usp_deframer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/24 Testing: qa_kiss_server_sink
+19/24 Test: qa_kiss_server_sink
+Command: "/usr/bin/sh" "qa_kiss_server_sink_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/components/datasinks
+"qa_kiss_server_sink" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/components/datasinks/qa_kiss_server_sink.py", line 27, in <module>
+    from satellites.components.datasinks import kiss_server_sink
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_kiss_server_sink" end time: Sep 09 23:47 EDT
+"qa_kiss_server_sink" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/24 Testing: qa_telemetry_parser
+20/24 Test: qa_telemetry_parser
+Command: "/usr/bin/sh" "qa_telemetry_parser_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/components/datasinks
+"qa_telemetry_parser" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/components/datasinks/qa_telemetry_parser.py", line 27, in <module>
+    from satellites.components.datasinks import telemetry_parser
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_telemetry_parser" end time: Sep 09 23:47 EDT
+"qa_telemetry_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/24 Testing: qa_rms_agc
+21/24 Test: qa_rms_agc
+Command: "/usr/bin/sh" "qa_rms_agc_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/hier
+"qa_rms_agc" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/hier/qa_rms_agc.py", line 24, in <module>
+    from satellites.hier import rms_agc
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_rms_agc" end time: Sep 09 23:47 EDT
+"qa_rms_agc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/24 Testing: qa_rms_agc_f
+22/24 Test: qa_rms_agc_f
+Command: "/usr/bin/sh" "qa_rms_agc_f_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/hier
+"qa_rms_agc_f" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/hier/qa_rms_agc_f.py", line 24, in <module>
+    from satellites.hier import rms_agc_f
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_rms_agc_f" end time: Sep 09 23:47 EDT
+"qa_rms_agc_f" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/24 Testing: qa_satyaml
+23/24 Test: qa_satyaml
+Command: "/usr/bin/sh" "qa_satyaml_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/satyaml
+"qa_satyaml" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.429s
+
+OK
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"qa_satyaml" end time: Sep 09 23:47 EDT
+"qa_satyaml" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/24 Testing: qa_by02
+24/24 Test: qa_by02
+Command: "/usr/bin/sh" "qa_by02_test.sh"
+Directory: /home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/build/python/telemetry
+"qa_by02" start time: Sep 09 23:47 EDT
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 47, in <module>
+    from .bindings.satellites_python import *
+ModuleNotFoundError: No module named 'satellites.bindings'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mattyb/Desktop/UF_Classes/fall_2024/CEN_3031/gr-satellites/python/telemetry/qa_by02.py", line 22, in <module>
+    from satellites.telemetry.by02 import frameB
+  File "/usr/local/lib/python3.10/dist-packages/satellites/__init__.py", line 49, in <module>
+    from .satellites_python import *
+ImportError: generic_type: type "ax100_decode" referenced unknown base type "gr::block"
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"qa_by02" end time: Sep 09 23:47 EDT
+"qa_by02" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 09 23:47 EDT

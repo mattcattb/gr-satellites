@@ -1,0 +1,47 @@
+qa_costas_loop_8apsk_cc 0 0
+qa_crc 0 0
+qa_fixedlen_tagger 0 0
+qa_fixedlen_to_pdu 0 0
+qa_hdlc 0 0
+qa_kiss 0 0
+qa_manchester_sync 0 0
+qa_nrzi 0 0
+qa_pdu_add_meta 0 0
+qa_pdu_head_tail 0 0
+qa_pdu_length_filter 0 0
+qa_pdu_scrambler 0 0
+qa_phase_unwrap 0 0
+qa_rs 0 0
+qa_selector 3 0.0446262
+qa_viterbi 0 0
+qa_ao40_fec_deframer 0 0
+qa_usp_deframer 0 0
+qa_kiss_server_sink 0 0
+qa_telemetry_parser 0 0
+qa_rms_agc 0 0
+qa_rms_agc_f 0 0
+qa_satyaml 3 0.160007
+qa_by02 0 0
+---
+qa_costas_loop_8apsk_cc
+qa_crc
+qa_fixedlen_tagger
+qa_fixedlen_to_pdu
+qa_hdlc
+qa_kiss
+qa_manchester_sync
+qa_nrzi
+qa_pdu_add_meta
+qa_pdu_head_tail
+qa_pdu_length_filter
+qa_pdu_scrambler
+qa_phase_unwrap
+qa_rs
+qa_viterbi
+qa_ao40_fec_deframer
+qa_usp_deframer
+qa_kiss_server_sink
+qa_telemetry_parser
+qa_rms_agc
+qa_rms_agc_f
+qa_by02
