@@ -51,6 +51,7 @@ class aalto1_deframer(gr.hier_block2, options_block):
         self.deframer = sync_to_pdu_packed(
             packlen=255, sync=_syncword, threshold=syncword_threshold)
         self.scrambler = pn9_scrambler()
+        #TODO - cc update crop
         self.crop = cc11xx_packet_crop(True)
         self.crc = crc16_ccitt_x25()
         self.crop2 = pdu_head_tail(3, 1)

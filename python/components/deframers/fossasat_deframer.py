@@ -57,6 +57,7 @@ class fossasat_deframer(gr.hier_block2, options_block):
         self.reflect_1 = reflect_bytes()
         self.scrambler = pn9_scrambler()
         self.reflect_2 = reflect_bytes()
+        #TODO - sx change to field crop
         self.crop = sx12xx_packet_crop(crc_len=2)
         self.crc = crc_check(
             16, 0x1021, 0x1D0F, 0xFFFF, False, False, False, True)

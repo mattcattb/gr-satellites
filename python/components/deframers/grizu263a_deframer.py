@@ -67,6 +67,7 @@ class grizu263a_deframer(gr.hier_block2, options_block):
                                                'packet_len')
 
         self.reflect_2 = reflect_bytes()
+        #TODO - sx change to field crop
         self.crop = sx12xx_packet_crop(crc_len=2)
         self.crc = crc16_cc11xx()
         self.remove_length = pdu_head_tail(3, 1)
