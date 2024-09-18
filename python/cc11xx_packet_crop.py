@@ -12,7 +12,8 @@ from gnuradio import gr
 import numpy
 import pmt
 
-
+#! depreciated, please use length_field_packet_crop
+@DeprecationWarning
 class cc11xx_packet_crop(gr.basic_block):
     """docstring for block cc11xx_packet_crop"""
     def __init__(self, use_crc16):

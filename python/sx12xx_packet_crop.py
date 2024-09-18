@@ -12,13 +12,15 @@ from gnuradio import gr
 import numpy
 import pmt
 
-
+#! depreciated, please use length_field_packet_crop
+@DeprecationWarning
 class sx12xx_packet_crop(gr.basic_block):
     """Crop SX12xx FSK packet
 
     This is based on the internal packet length field
     (first byte after sync word).
     """
+    #SECTION - sx12xx_packet_crop
     def __init__(self, crc_len):
         gr.basic_block.__init__(
             self,
