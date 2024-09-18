@@ -10,7 +10,7 @@
 
 from gnuradio import gr, digital
 
-from ... import cc11xx_packet_crop
+from ... import length_field_packet_crop
 from ...crcs import crc16_ccitt_false
 from ...hier.sync_to_pdu_packed import sync_to_pdu_packed
 from ...utils.options_block import options_block
@@ -55,8 +55,9 @@ class endurosat_deframer(gr.hier_block2, options_block):
         self.slicer = digital.binary_slicer_fb()
         self.deframer = sync_to_pdu_packed(
             packlen=131, sync=_syncword, threshold=syncword_threshold)
-        #TODO - cc update to field length crop 
-        self.crop = cc11xx_packet_crop(use_crc16=True)
+        #REVIEW - cc11xx -> length_field
+        # self.crop = cc11xx_packet_crop(use_crc16=True)
+        self.crop = length_field_packet_crop(2)
         self.crc = crc16_ccitt_false()
 
         self.connect(self, self.slicer, self.deframer)

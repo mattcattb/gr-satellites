@@ -10,7 +10,7 @@
 
 from gnuradio import gr, digital
 
-from ... import cc11xx_packet_crop, pdu_head_tail
+from ... import cc11xx_packet_crop, pdu_head_tail, length_field_packet_crop
 from ...crcs import crc16_ccitt_x25
 from ...hier.pn9_scrambler import pn9_scrambler
 from ...hier.sync_to_pdu_packed import sync_to_pdu_packed
@@ -51,8 +51,8 @@ class aalto1_deframer(gr.hier_block2, options_block):
         self.deframer = sync_to_pdu_packed(
             packlen=255, sync=_syncword, threshold=syncword_threshold)
         self.scrambler = pn9_scrambler()
-        #TODO - cc update crop
-        self.crop = cc11xx_packet_crop(True)
+        # depreciated! self.crop = cc11xx_packet_crop(True)
+        self.crop = length_field_packet_crop(crc_len=2)
         self.crc = crc16_ccitt_x25()
         self.crop2 = pdu_head_tail(3, 1)
 
