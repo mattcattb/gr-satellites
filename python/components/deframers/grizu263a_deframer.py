@@ -12,7 +12,7 @@ from gnuradio import gr, blocks, digital
 import pmt
 
 from ... import pdu_head_tail
-from ... import sx12xx_packet_crop
+from ... import length_field_packet_crop
 from ... import reflect_bytes
 from ...crcs import crc16_cc11xx
 from ...grpdu import pdu_to_tagged_stream, tagged_stream_to_pdu
@@ -67,8 +67,9 @@ class grizu263a_deframer(gr.hier_block2, options_block):
                                                'packet_len')
 
         self.reflect_2 = reflect_bytes()
-        #TODO - sx change to field crop
-        self.crop = sx12xx_packet_crop(crc_len=2)
+        #REVIEW - sx change to field crop
+        # self.crop = sx12xx_packet_crop(crc_len=2)
+        self.crop = length_field_packet_crop(crc_len=2)
         self.crc = crc16_cc11xx()
         self.remove_length = pdu_head_tail(3, 1)
 

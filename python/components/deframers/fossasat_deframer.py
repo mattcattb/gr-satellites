@@ -13,7 +13,7 @@ from gnuradio import gr, digital
 import pmt
 
 from ... import pdu_head_tail
-from ... import sx12xx_packet_crop
+from ... import length_field_packet_crop
 from ... import reflect_bytes
 from ... import crc_check
 from ...hier.pn9_scrambler import pn9_scrambler
@@ -57,8 +57,9 @@ class fossasat_deframer(gr.hier_block2, options_block):
         self.reflect_1 = reflect_bytes()
         self.scrambler = pn9_scrambler()
         self.reflect_2 = reflect_bytes()
-        #TODO - sx change to field crop
-        self.crop = sx12xx_packet_crop(crc_len=2)
+        #REVIEW - sx change to field crop
+        # self.crop = sx12xx_packet_crop(crc_len=2)
+        self.crop = length_field_packet_crop(crc_len=2)
         self.crc = crc_check(
             16, 0x1021, 0x1D0F, 0xFFFF, False, False, False, True)
         self.remove_length = pdu_head_tail(3, 1)

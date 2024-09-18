@@ -10,7 +10,7 @@
 
 from gnuradio import gr, digital
 
-from ... import cc11xx_packet_crop, pdu_head_tail, length_field_packet_crop
+from ... import pdu_head_tail, length_field_packet_crop
 from ...crcs import crc16_ccitt_x25
 from ...hier.pn9_scrambler import pn9_scrambler
 from ...hier.sync_to_pdu_packed import sync_to_pdu_packed
