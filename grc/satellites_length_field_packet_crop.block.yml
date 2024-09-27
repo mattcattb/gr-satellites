@@ -1,6 +1,6 @@
 id: satellites_length_field_packet_crop.block.yml
 label: Length Field packet crop
-category: '[Satellites]/SX12xx'
+category: '[Satellites]'
 
 parameters:
 -   id: crc_len
